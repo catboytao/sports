@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # 后台启动Celery
 echo "开始启动"
-nohup celery -A app:celery_app worker -f ./logs/celery.log -l INFO &
+#nohup celery -A app:celery_app worker -f ./logs/celery.log -l INFO &
 # 启动FlaskAPP
 gunicorn -c ./config/gun.conf app:app
 # windows 下测试

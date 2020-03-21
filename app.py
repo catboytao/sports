@@ -3,22 +3,33 @@ import logging
 from flask import Flask, jsonify,abort,request,g,url_for
 from flask_httpauth import HTTPBasicAuth
 from passlib.apps import custom_app_context as pwd_context
-
-from factory import create_app,celery_app
+from apscheduler.schedulers.blocking import BlockingScheduler
+from datetime import datetime
+# 输出时间
+from spider.crawler import Crawler
+from spider.load_data import Loader
+from factory import create_app
 from models.model import User,Sports
 from utils.core import db
-app = create_app(config_name="DEVELOPMENT")
+app = create_app(config_name="PRODUCTION")
 app.app_context().push()
 auth = HTTPBasicAuth()
+db.create_all()
 # celery -A app:celery_app worker -l info -P gevent
 
-#api = Api(app)
 
 logging.basicConfig(
     level=logging.INFO,
     filename="logs/log.txt",
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
 )
+
+def job():
+    print(datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
+    html = Crawler.get_html()
+    data = Crawler.parse_html(html)
+    loader.insert_data(data)
+
 
 @app.route('/')
 def hello_world():
@@ -98,4 +109,7 @@ if __name__ == '__main__':
     # html = Crawler.get_html()
     # data = Crawler.parse_html(html)
     # loader.insert_data(data)
+    scheduler = BlockingScheduler()
+    scheduler.add_job(job, 'interval', minutes=10)
+    scheduler.start()
     app.run()

@@ -12,7 +12,6 @@ import platform
 import yaml
 from flask import Flask
 
-from celery_task import celery_app
 from utils.core import db, JSONEncoder,scheduler
 from flask_cors import *
 
@@ -30,10 +29,7 @@ def create_app(config_name,config_path=None):
     conf = read_yaml(config_name, config_path)
     app.config.update(conf)
 
-    celery_conf = "redis://{}:{}/{}".format(app.config['REDIS_HOST'], app.config['REDIS_PORT'], app.config['REDIS_DB'])
-    celery_app.conf.update({"broker_url": celery_conf, "result_backend": celery_conf})
-
-    # 返回json格式转换
+        # 返回json格式转换
     app.json_encoder = JSONEncoder
 
 

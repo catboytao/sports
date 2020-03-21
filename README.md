@@ -10,18 +10,9 @@
 
    pip install -i "https://pypi.tuna.tsinghua.edu.cn/simple" -r requirements.txt
 
-2. redis
 
-   在config.yaml中设置相应的redis配置
 
-   ```
-   REDIS_EXPIRE: 60*60
-   REDIS_HOST: 127.0.0.1 # redis主机名
-   REDIS_PORT: 6379  # redis端口
-   REDIS_DB: 1  # 数据库
-   ```
-
-3. mysql
+2. mysql
 
    在config.yaml中设置相应的mysql配置
 

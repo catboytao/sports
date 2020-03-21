@@ -263,3 +263,36 @@ NameError: name 'datas' is not defined
 2020-03-20 19:01:12,819 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2020 19:01:12] "[37mOPTIONS /api/getSports HTTP/1.1[0m" 200 -
 2020-03-20 19:01:14,296 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2020 19:01:14] "[37mGET /api/getSports HTTP/1.1[0m" 200 -
 2020-03-20 20:17:20,724 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2020 20:17:20] "[37mGET /api/getSports HTTP/1.1[0m" 200 -
+2020-03-21 17:56:20,475 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2020-03-21 17:56:20,475 - apscheduler.scheduler - INFO - Added job "job" to job store "default"
+2020-03-21 17:56:20,475 - apscheduler.scheduler - INFO - Scheduler started
+2020-03-21 17:56:30,264 - apscheduler.executors.default - INFO - Running job "my_job (trigger: interval[0:00:10], next run at: 2020-03-21 17:56:30 CST)" (scheduled at 2020-03-21 17:56:30.262203+08:00)
+2020-03-21 17:56:30,264 - apscheduler.executors.default - INFO - Job "my_job (trigger: interval[0:00:10], next run at: 2020-03-21 17:56:30 CST)" executed successfully
+2020-03-21 17:56:40,264 - apscheduler.executors.default - INFO - Running job "my_job (trigger: interval[0:00:10], next run at: 2020-03-21 17:56:40 CST)" (scheduled at 2020-03-21 17:56:40.262203+08:00)
+2020-03-21 17:56:40,264 - apscheduler.executors.default - INFO - Job "my_job (trigger: interval[0:00:10], next run at: 2020-03-21 17:56:40 CST)" executed successfully
+2020-03-21 17:56:50,263 - apscheduler.executors.default - INFO - Running job "my_job (trigger: interval[0:00:10], next run at: 2020-03-21 17:56:50 CST)" (scheduled at 2020-03-21 17:56:50.262203+08:00)
+2020-03-21 17:56:50,264 - apscheduler.executors.default - INFO - Job "my_job (trigger: interval[0:00:10], next run at: 2020-03-21 17:56:50 CST)" executed successfully
+2020-03-21 17:57:00,264 - apscheduler.executors.default - INFO - Running job "my_job (trigger: interval[0:00:10], next run at: 2020-03-21 17:57:00 CST)" (scheduled at 2020-03-21 17:57:00.262203+08:00)
+2020-03-21 17:57:00,266 - apscheduler.executors.default - INFO - Job "my_job (trigger: interval[0:00:10], next run at: 2020-03-21 17:57:10 CST)" executed successfully
+2020-03-21 17:57:10,263 - apscheduler.executors.default - INFO - Running job "my_job (trigger: interval[0:00:10], next run at: 2020-03-21 17:57:10 CST)" (scheduled at 2020-03-21 17:57:10.262203+08:00)
+2020-03-21 17:57:10,264 - apscheduler.executors.default - INFO - Job "my_job (trigger: interval[0:00:10], next run at: 2020-03-21 17:57:20 CST)" executed successfully
+2020-03-21 17:57:20,263 - apscheduler.executors.default - INFO - Running job "my_job (trigger: interval[0:00:10], next run at: 2020-03-21 17:57:20 CST)" (scheduled at 2020-03-21 17:57:20.262203+08:00)
+2020-03-21 17:57:20,263 - apscheduler.executors.default - INFO - Job "my_job (trigger: interval[0:00:10], next run at: 2020-03-21 17:57:20 CST)" executed successfully
+2020-03-21 17:57:30,264 - apscheduler.executors.default - INFO - Running job "my_job (trigger: interval[0:00:10], next run at: 2020-03-21 17:57:30 CST)" (scheduled at 2020-03-21 17:57:30.262203+08:00)
+2020-03-21 17:57:30,265 - apscheduler.executors.default - INFO - Job "my_job (trigger: interval[0:00:10], next run at: 2020-03-21 17:57:40 CST)" executed successfully
+2020-03-21 17:57:40,265 - apscheduler.executors.default - INFO - Running job "my_job (trigger: interval[0:00:10], next run at: 2020-03-21 17:57:40 CST)" (scheduled at 2020-03-21 17:57:40.262203+08:00)
+2020-03-21 17:57:40,266 - apscheduler.executors.default - INFO - Job "my_job (trigger: interval[0:00:10], next run at: 2020-03-21 17:57:50 CST)" executed successfully
+2020-03-21 17:57:50,267 - apscheduler.executors.default - INFO - Running job "my_job (trigger: interval[0:00:10], next run at: 2020-03-21 17:57:50 CST)" (scheduled at 2020-03-21 17:57:50.262203+08:00)
+2020-03-21 17:57:50,268 - apscheduler.executors.default - INFO - Job "my_job (trigger: interval[0:00:10], next run at: 2020-03-21 17:57:50 CST)" executed successfully
+2020-03-21 17:58:00,267 - apscheduler.executors.default - INFO - Running job "my_job (trigger: interval[0:00:10], next run at: 2020-03-21 17:58:00 CST)" (scheduled at 2020-03-21 17:58:00.262203+08:00)
+2020-03-21 17:58:00,268 - apscheduler.executors.default - INFO - Job "my_job (trigger: interval[0:00:10], next run at: 2020-03-21 17:58:10 CST)" executed successfully
+2020-03-21 17:58:10,263 - apscheduler.executors.default - INFO - Running job "my_job (trigger: interval[0:00:10], next run at: 2020-03-21 17:58:20 CST)" (scheduled at 2020-03-21 17:58:10.262203+08:00)
+2020-03-21 17:58:10,263 - apscheduler.executors.default - INFO - Job "my_job (trigger: interval[0:00:10], next run at: 2020-03-21 17:58:20 CST)" executed successfully
+2020-03-21 17:58:20,262 - apscheduler.executors.default - INFO - Running job "my_job (trigger: interval[0:00:10], next run at: 2020-03-21 17:58:30 CST)" (scheduled at 2020-03-21 17:58:20.262203+08:00)
+2020-03-21 17:58:20,262 - apscheduler.executors.default - INFO - Job "my_job (trigger: interval[0:00:10], next run at: 2020-03-21 17:58:30 CST)" executed successfully
+2020-03-21 17:58:30,263 - apscheduler.executors.default - INFO - Running job "my_job (trigger: interval[0:00:10], next run at: 2020-03-21 17:58:40 CST)" (scheduled at 2020-03-21 17:58:30.262203+08:00)
+2020-03-21 17:58:30,263 - apscheduler.executors.default - INFO - Job "my_job (trigger: interval[0:00:10], next run at: 2020-03-21 17:58:40 CST)" executed successfully
+2020-03-21 17:58:40,263 - apscheduler.executors.default - INFO - Running job "my_job (trigger: interval[0:00:10], next run at: 2020-03-21 17:58:50 CST)" (scheduled at 2020-03-21 17:58:40.262203+08:00)
+2020-03-21 17:58:40,264 - apscheduler.executors.default - INFO - Job "my_job (trigger: interval[0:00:10], next run at: 2020-03-21 17:58:50 CST)" executed successfully
+2020-03-21 17:58:50,263 - apscheduler.executors.default - INFO - Running job "my_job (trigger: interval[0:00:10], next run at: 2020-03-21 17:59:00 CST)" (scheduled at 2020-03-21 17:58:50.262203+08:00)
+2020-03-21 17:58:50,264 - apscheduler.executors.default - INFO - Job "my_job (trigger: interval[0:00:10], next run at: 2020-03-21 17:59:00 CST)" executed successfully
