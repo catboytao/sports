@@ -1,0 +1,41 @@
+version: "2"
+services:
+  flask_app:
+    image: flask-restful-example:latest
+    container_name: flask-restful-example
+    restart: always
+    ports:
+      - "3010:80"
+#    volumes:
+#      - c:/Users/azhuo/Desktop/flask_projects/logs:/projects/logs
+#      - c:/Users/azhuo/Desktop/flask_projects/report:/projects/report
+    networks:
+      appnet:
+        aliases:
+          - flask-worker
+
+  redis:
+    image: redis:latest
+    container_name: flask_redis
+    restart: always
+    networks:
+      appnet:
+        aliases:
+          - flask-redis
+
+  mysql:
+    image: mysql:latest
+    container_name: flask_mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=123456
+    restart: always
+    networks:
+      appnet:
+        aliases:
+          - flask-mysql
+
+networks:
+  appnet:
+    driver: bridge
+    driver_opts:
+      com.docker.network.enable_ipv6: "true"
