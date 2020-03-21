@@ -98,12 +98,5 @@ def get_sports():
 #api.add_resource(SportsResource,'/getSports')
 
 if __name__ == '__main__':
-    # loader = Loader()
-    # #print(len(loader.ids))
-    # html = Crawler.get_html()
-    # data = Crawler.parse_html(html)
-    # loader.insert_data(data)
-    # scheduler = BlockingScheduler()
-    # scheduler.add_job(job, 'interval', minutes=10)
-    # scheduler.start()
+
     app.run()

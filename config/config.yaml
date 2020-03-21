@@ -3,7 +3,7 @@ COMMON: &common #标识
   SECRET_KEY: insecure
 
   # 数据库连接
-  SQLALCHEMY_DATABASE_URI: 'mysql+pymysql://root:199786@localhost:3306/testdb?charset=utf8mb4'
+  SQLALCHEMY_DATABASE_URI: 'mysql+pymysql://root:199786@localhost:3306/testdb?charset=utf8'
   SQLALCHEMY_TRACK_MODIFICATIONS: False
   # 日志配置文件路径
   LOGGING_CONFIG_PATH: ./config/logging.yaml
@@ -37,7 +37,7 @@ COMMON: &common #标识
     - id: db_insert
       func: task.task:db_insert
       trigger: interval
-      minutes: 5
+      minutes: 2
 
 
 DEVELOPMENT: &development
@@ -52,4 +52,4 @@ STAGING: &staging
 PRODUCTION: &production
   <<: *common
   SECRET_KEY: mdd1##$$%^!DSA#FDSF
-  SQLALCHEMY_DATABASE_URI: 'mysql+pymysql://root:199786@flask-mysql:3306/testdb?charset=utf8mb4'
+  SQLALCHEMY_DATABASE_URI: 'mysql+pymysql://root:199786@flask-mysql:3306/testdb?charset=utf8'

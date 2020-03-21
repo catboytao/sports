@@ -27,4 +27,5 @@ def db_insert():
         loader = Loader()
         html = Crawler.get_html()
         data = Crawler.parse_html(html)
+        print(len(data))
         loader.insert_data(datas=data)
