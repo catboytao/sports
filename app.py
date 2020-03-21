@@ -3,7 +3,6 @@ import logging
 from flask import Flask, jsonify,abort,request,g,url_for
 from flask_httpauth import HTTPBasicAuth
 from passlib.apps import custom_app_context as pwd_context
-from apscheduler.schedulers.blocking import BlockingScheduler
 from datetime import datetime
 # 输出时间
 from spider.crawler import Crawler
@@ -24,11 +23,6 @@ logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
 )
 
-def job():
-    print(datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
-    html = Crawler.get_html()
-    data = Crawler.parse_html(html)
-    loader.insert_data(data)
 
 
 @app.route('/')
@@ -109,7 +103,7 @@ if __name__ == '__main__':
     # html = Crawler.get_html()
     # data = Crawler.parse_html(html)
     # loader.insert_data(data)
-    scheduler = BlockingScheduler()
-    scheduler.add_job(job, 'interval', minutes=10)
-    scheduler.start()
+    # scheduler = BlockingScheduler()
+    # scheduler.add_job(job, 'interval', minutes=10)
+    # scheduler.start()
     app.run()
