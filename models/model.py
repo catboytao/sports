@@ -51,7 +51,7 @@ class User(db.Model):
     def verify_password(self, password):
         return pwd_context.verify(password, self.password_hash)
 
-    def generate_auth_token(self, expiration=600):
+    def generate_auth_token(self, app,expiration=600):
         s = Serializer(app.config['SECRET_KEY'], expires_in=expiration)
         return s.dumps({'id': self.id})
 
@@ -67,5 +67,14 @@ class User(db.Model):
         user = User.query.get(data['id'])
         return user
 
+class Yuanyou(db.Model):
+    id = db.Column(db.Integer,primary_key=True)
+    date_1 = db.Column(db.VARCHAR(20))
+    data_name = db.Column(db.Text)
+    before = db.Column(db.VARCHAR(20))
+    forecast = db.Column(db.VARCHAR(20))
+    publish = db.Column(db.VARCHAR(20))
+    affect = db.Column(db.VARCHAR(10))
+    create_time = db.Column(db.DateTime, default=datetime.now)
 
 

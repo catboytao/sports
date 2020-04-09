@@ -388,3 +388,93 @@ NameError: name 'datas' is not defined
 2020-03-21 19:39:04,393 - apscheduler.executors.default - INFO - Job "my_job (trigger: interval[0:00:10], next run at: 2020-03-21 19:39:14 CST)" executed successfully
 2020-03-21 19:39:14,392 - apscheduler.executors.default - INFO - Running job "my_job (trigger: interval[0:00:10], next run at: 2020-03-21 19:39:24 CST)" (scheduled at 2020-03-21 19:39:14.392537+08:00)
 2020-03-21 19:39:14,392 - apscheduler.executors.default - INFO - Job "my_job (trigger: interval[0:00:10], next run at: 2020-03-21 19:39:24 CST)" executed successfully
+2020-04-07 16:33:57,468 - werkzeug - INFO -  * Restarting with stat
+2020-04-07 16:33:59,603 - werkzeug - WARNING -  * Debugger is active!
+2020-04-07 16:33:59,632 - werkzeug - INFO -  * Debugger PIN: 256-636-800
+2020-04-07 16:33:59,648 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-04-07 16:34:07,039 - apscheduler.executors.default - INFO - Running job "my_job (trigger: interval[0:00:10], next run at: 2020-04-07 16:34:07 CST)" (scheduled at 2020-04-07 16:34:07.024743+08:00)
+2020-04-07 16:34:07,039 - apscheduler.executors.default - INFO - Job "my_job (trigger: interval[0:00:10], next run at: 2020-04-07 16:34:07 CST)" executed successfully
+2020-04-07 16:34:17,034 - apscheduler.executors.default - INFO - Running job "my_job (trigger: interval[0:00:10], next run at: 2020-04-07 16:34:17 CST)" (scheduled at 2020-04-07 16:34:17.024743+08:00)
+2020-04-07 16:34:17,034 - apscheduler.executors.default - INFO - Job "my_job (trigger: interval[0:00:10], next run at: 2020-04-07 16:34:17 CST)" executed successfully
+2020-04-07 16:34:27,040 - apscheduler.executors.default - INFO - Running job "my_job (trigger: interval[0:00:10], next run at: 2020-04-07 16:34:27 CST)" (scheduled at 2020-04-07 16:34:27.024743+08:00)
+2020-04-07 16:34:27,040 - apscheduler.executors.default - INFO - Job "my_job (trigger: interval[0:00:10], next run at: 2020-04-07 16:34:27 CST)" executed successfully
+2020-04-07 16:34:37,026 - apscheduler.executors.default - INFO - Running job "my_job (trigger: interval[0:00:10], next run at: 2020-04-07 16:34:37 CST)" (scheduled at 2020-04-07 16:34:37.024743+08:00)
+2020-04-07 16:34:37,027 - apscheduler.executors.default - INFO - Job "my_job (trigger: interval[0:00:10], next run at: 2020-04-07 16:34:47 CST)" executed successfully
+2020-04-07 16:46:45,673 - werkzeug - INFO -  * Restarting with stat
+2020-04-07 16:46:47,850 - werkzeug - WARNING -  * Debugger is active!
+2020-04-07 16:46:47,867 - werkzeug - INFO -  * Debugger PIN: 256-636-800
+2020-04-07 16:46:47,883 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-04-07 16:46:55,540 - apscheduler.executors.default - INFO - Running job "my_job (trigger: interval[0:00:10], next run at: 2020-04-07 16:46:55 CST)" (scheduled at 2020-04-07 16:46:55.539391+08:00)
+2020-04-07 16:46:55,541 - apscheduler.executors.default - INFO - Job "my_job (trigger: interval[0:00:10], next run at: 2020-04-07 16:47:05 CST)" executed successfully
+2020-04-07 16:47:05,541 - apscheduler.executors.default - INFO - Running job "my_job (trigger: interval[0:00:10], next run at: 2020-04-07 16:47:05 CST)" (scheduled at 2020-04-07 16:47:05.539391+08:00)
+2020-04-07 16:47:05,541 - apscheduler.executors.default - INFO - Job "my_job (trigger: interval[0:00:10], next run at: 2020-04-07 16:47:05 CST)" executed successfully
+2020-04-07 16:47:15,541 - apscheduler.executors.default - INFO - Running job "my_job (trigger: interval[0:00:10], next run at: 2020-04-07 16:47:15 CST)" (scheduled at 2020-04-07 16:47:15.539391+08:00)
+2020-04-07 16:47:15,541 - apscheduler.executors.default - INFO - Job "my_job (trigger: interval[0:00:10], next run at: 2020-04-07 16:47:15 CST)" executed successfully
+2020-04-07 16:47:25,542 - apscheduler.executors.default - INFO - Running job "my_job (trigger: interval[0:00:10], next run at: 2020-04-07 16:47:25 CST)" (scheduled at 2020-04-07 16:47:25.539391+08:00)
+2020-04-07 16:47:25,542 - apscheduler.executors.default - INFO - Job "my_job (trigger: interval[0:00:10], next run at: 2020-04-07 16:47:35 CST)" executed successfully
+2020-04-07 16:47:35,541 - apscheduler.executors.default - INFO - Running job "my_job (trigger: interval[0:00:10], next run at: 2020-04-07 16:47:35 CST)" (scheduled at 2020-04-07 16:47:35.539391+08:00)
+2020-04-07 16:47:35,542 - apscheduler.executors.default - INFO - Job "my_job (trigger: interval[0:00:10], next run at: 2020-04-07 16:47:45 CST)" executed successfully
+2020-04-07 16:47:45,541 - apscheduler.executors.default - INFO - Running job "my_job (trigger: interval[0:00:10], next run at: 2020-04-07 16:47:45 CST)" (scheduled at 2020-04-07 16:47:45.539391+08:00)
+2020-04-07 16:47:45,541 - apscheduler.executors.default - INFO - Job "my_job (trigger: interval[0:00:10], next run at: 2020-04-07 16:47:45 CST)" executed successfully
+2020-04-07 16:47:55,551 - apscheduler.executors.default - INFO - Running job "my_job (trigger: interval[0:00:10], next run at: 2020-04-07 16:47:55 CST)" (scheduled at 2020-04-07 16:47:55.539391+08:00)
+2020-04-07 16:47:55,551 - apscheduler.executors.default - INFO - Job "my_job (trigger: interval[0:00:10], next run at: 2020-04-07 16:47:55 CST)" executed successfully
+2020-04-07 16:48:05,554 - apscheduler.executors.default - INFO - Running job "my_job (trigger: interval[0:00:10], next run at: 2020-04-07 16:48:05 CST)" (scheduled at 2020-04-07 16:48:05.539391+08:00)
+2020-04-07 16:48:05,555 - apscheduler.executors.default - INFO - Job "my_job (trigger: interval[0:00:10], next run at: 2020-04-07 16:48:05 CST)" executed successfully
+2020-04-07 16:48:15,554 - apscheduler.executors.default - INFO - Running job "my_job (trigger: interval[0:00:10], next run at: 2020-04-07 16:48:15 CST)" (scheduled at 2020-04-07 16:48:15.539391+08:00)
+2020-04-07 16:48:15,554 - apscheduler.executors.default - INFO - Job "my_job (trigger: interval[0:00:10], next run at: 2020-04-07 16:48:15 CST)" executed successfully
+2020-04-07 16:48:25,552 - apscheduler.executors.default - INFO - Running job "my_job (trigger: interval[0:00:10], next run at: 2020-04-07 16:48:25 CST)" (scheduled at 2020-04-07 16:48:25.539391+08:00)
+2020-04-07 16:48:25,553 - apscheduler.executors.default - INFO - Job "my_job (trigger: interval[0:00:10], next run at: 2020-04-07 16:48:25 CST)" executed successfully
+2020-04-07 16:48:35,554 - apscheduler.executors.default - INFO - Running job "my_job (trigger: interval[0:00:10], next run at: 2020-04-07 16:48:45 CST)" (scheduled at 2020-04-07 16:48:35.539391+08:00)
+2020-04-07 16:48:35,554 - apscheduler.executors.default - INFO - Job "my_job (trigger: interval[0:00:10], next run at: 2020-04-07 16:48:45 CST)" executed successfully
+2020-04-07 16:48:45,553 - apscheduler.executors.default - INFO - Running job "my_job (trigger: interval[0:00:10], next run at: 2020-04-07 16:48:55 CST)" (scheduled at 2020-04-07 16:48:45.539391+08:00)
+2020-04-07 16:48:45,553 - apscheduler.executors.default - INFO - Job "my_job (trigger: interval[0:00:10], next run at: 2020-04-07 16:48:55 CST)" executed successfully
+2020-04-07 16:48:45,569 - apscheduler.executors.default - INFO - Running job "db_insert (trigger: interval[0:02:00], next run at: 2020-04-07 16:50:45 CST)" (scheduled at 2020-04-07 16:48:45.554390+08:00)
+2020-04-07 16:48:45,569 - apscheduler.executors.default - INFO - Running job "yuanyou_insert (trigger: interval[0:02:00], next run at: 2020-04-07 16:50:45 CST)" (scheduled at 2020-04-07 16:48:45.554390+08:00)
+2020-04-07 16:48:48,588 - apscheduler.executors.default - INFO - Job "db_insert (trigger: interval[0:02:00], next run at: 2020-04-07 16:50:45 CST)" executed successfully
+2020-04-07 16:48:49,394 - apscheduler.executors.default - INFO - Job "yuanyou_insert (trigger: interval[0:02:00], next run at: 2020-04-07 16:50:45 CST)" executed successfully
+2020-04-07 16:48:55,552 - apscheduler.executors.default - INFO - Running job "my_job (trigger: interval[0:00:10], next run at: 2020-04-07 16:49:05 CST)" (scheduled at 2020-04-07 16:48:55.539391+08:00)
+2020-04-07 16:48:55,552 - apscheduler.executors.default - INFO - Job "my_job (trigger: interval[0:00:10], next run at: 2020-04-07 16:49:05 CST)" executed successfully
+2020-04-07 16:49:05,555 - apscheduler.executors.default - INFO - Running job "my_job (trigger: interval[0:00:10], next run at: 2020-04-07 16:49:15 CST)" (scheduled at 2020-04-07 16:49:05.539391+08:00)
+2020-04-07 16:49:05,556 - apscheduler.executors.default - INFO - Job "my_job (trigger: interval[0:00:10], next run at: 2020-04-07 16:49:15 CST)" executed successfully
+2020-04-07 17:01:33,279 - werkzeug - INFO -  * Restarting with stat
+2020-04-07 17:01:37,354 - werkzeug - WARNING -  * Debugger is active!
+2020-04-07 17:01:37,376 - werkzeug - INFO -  * Debugger PIN: 256-636-800
+2020-04-07 17:01:37,394 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-04-07 17:01:42,939 - apscheduler.executors.default - INFO - Running job "my_job (trigger: interval[0:00:10], next run at: 2020-04-07 17:01:42 CST)" (scheduled at 2020-04-07 17:01:42.939005+08:00)
+2020-04-07 17:01:42,940 - apscheduler.executors.default - INFO - Job "my_job (trigger: interval[0:00:10], next run at: 2020-04-07 17:01:52 CST)" executed successfully
+2020-04-07 17:01:52,941 - apscheduler.executors.default - INFO - Running job "my_job (trigger: interval[0:00:10], next run at: 2020-04-07 17:01:52 CST)" (scheduled at 2020-04-07 17:01:52.939005+08:00)
+2020-04-07 17:01:52,942 - apscheduler.executors.default - INFO - Job "my_job (trigger: interval[0:00:10], next run at: 2020-04-07 17:02:02 CST)" executed successfully
+2020-04-07 17:02:02,939 - apscheduler.executors.default - INFO - Running job "my_job (trigger: interval[0:00:10], next run at: 2020-04-07 17:02:02 CST)" (scheduled at 2020-04-07 17:02:02.939005+08:00)
+2020-04-07 17:02:02,939 - apscheduler.executors.default - INFO - Job "my_job (trigger: interval[0:00:10], next run at: 2020-04-07 17:02:02 CST)" executed successfully
+2020-04-07 17:02:12,941 - apscheduler.executors.default - INFO - Running job "my_job (trigger: interval[0:00:10], next run at: 2020-04-07 17:02:12 CST)" (scheduled at 2020-04-07 17:02:12.939005+08:00)
+2020-04-07 17:02:12,942 - apscheduler.executors.default - INFO - Job "my_job (trigger: interval[0:00:10], next run at: 2020-04-07 17:02:22 CST)" executed successfully
+2020-04-07 17:02:22,940 - apscheduler.executors.default - INFO - Running job "my_job (trigger: interval[0:00:10], next run at: 2020-04-07 17:02:22 CST)" (scheduled at 2020-04-07 17:02:22.939005+08:00)
+2020-04-07 17:02:22,940 - apscheduler.executors.default - INFO - Job "my_job (trigger: interval[0:00:10], next run at: 2020-04-07 17:02:22 CST)" executed successfully
+2020-04-07 17:02:32,941 - apscheduler.executors.default - INFO - Running job "my_job (trigger: interval[0:00:10], next run at: 2020-04-07 17:02:32 CST)" (scheduled at 2020-04-07 17:02:32.939005+08:00)
+2020-04-07 17:02:32,941 - apscheduler.executors.default - INFO - Job "my_job (trigger: interval[0:00:10], next run at: 2020-04-07 17:02:42 CST)" executed successfully
+2020-04-07 17:02:42,940 - apscheduler.executors.default - INFO - Running job "my_job (trigger: interval[0:00:10], next run at: 2020-04-07 17:02:42 CST)" (scheduled at 2020-04-07 17:02:42.939005+08:00)
+2020-04-07 17:02:42,940 - apscheduler.executors.default - INFO - Job "my_job (trigger: interval[0:00:10], next run at: 2020-04-07 17:02:42 CST)" executed successfully
+2020-04-07 17:02:52,940 - apscheduler.executors.default - INFO - Running job "my_job (trigger: interval[0:00:10], next run at: 2020-04-07 17:02:52 CST)" (scheduled at 2020-04-07 17:02:52.939005+08:00)
+2020-04-07 17:02:52,940 - apscheduler.executors.default - INFO - Job "my_job (trigger: interval[0:00:10], next run at: 2020-04-07 17:02:52 CST)" executed successfully
+2020-04-07 17:03:02,940 - apscheduler.executors.default - INFO - Running job "my_job (trigger: interval[0:00:10], next run at: 2020-04-07 17:03:02 CST)" (scheduled at 2020-04-07 17:03:02.939005+08:00)
+2020-04-07 17:03:02,940 - apscheduler.executors.default - INFO - Job "my_job (trigger: interval[0:00:10], next run at: 2020-04-07 17:03:02 CST)" executed successfully
+2020-04-07 17:03:12,941 - apscheduler.executors.default - INFO - Running job "my_job (trigger: interval[0:00:10], next run at: 2020-04-07 17:03:12 CST)" (scheduled at 2020-04-07 17:03:12.939005+08:00)
+2020-04-07 17:03:12,941 - apscheduler.executors.default - INFO - Job "my_job (trigger: interval[0:00:10], next run at: 2020-04-07 17:03:12 CST)" executed successfully
+2020-04-07 17:03:22,939 - apscheduler.executors.default - INFO - Running job "my_job (trigger: interval[0:00:10], next run at: 2020-04-07 17:03:32 CST)" (scheduled at 2020-04-07 17:03:22.939005+08:00)
+2020-04-07 17:03:22,939 - apscheduler.executors.default - INFO - Job "my_job (trigger: interval[0:00:10], next run at: 2020-04-07 17:03:32 CST)" executed successfully
+2020-04-07 17:03:32,940 - apscheduler.executors.default - INFO - Running job "my_job (trigger: interval[0:00:10], next run at: 2020-04-07 17:03:42 CST)" (scheduled at 2020-04-07 17:03:32.939005+08:00)
+2020-04-07 17:03:32,940 - apscheduler.executors.default - INFO - Job "my_job (trigger: interval[0:00:10], next run at: 2020-04-07 17:03:42 CST)" executed successfully
+2020-04-07 17:03:32,986 - apscheduler.executors.default - INFO - Running job "db_insert (trigger: interval[0:02:00], next run at: 2020-04-07 17:05:32 CST)" (scheduled at 2020-04-07 17:03:32.978005+08:00)
+2020-04-07 17:03:32,986 - apscheduler.executors.default - INFO - Running job "yuanyou_insert (trigger: interval[0:02:00], next run at: 2020-04-07 17:05:32 CST)" (scheduled at 2020-04-07 17:03:32.978005+08:00)
+2020-04-07 17:03:34,435 - apscheduler.executors.default - INFO - Job "db_insert (trigger: interval[0:02:00], next run at: 2020-04-07 17:05:32 CST)" executed successfully
+2020-04-07 17:03:39,033 - apscheduler.executors.default - INFO - Job "yuanyou_insert (trigger: interval[0:02:00], next run at: 2020-04-07 17:05:32 CST)" executed successfully
+2020-04-07 17:03:42,939 - apscheduler.executors.default - INFO - Running job "my_job (trigger: interval[0:00:10], next run at: 2020-04-07 17:03:52 CST)" (scheduled at 2020-04-07 17:03:42.939005+08:00)
+2020-04-07 17:03:42,939 - apscheduler.executors.default - INFO - Job "my_job (trigger: interval[0:00:10], next run at: 2020-04-07 17:03:52 CST)" executed successfully
+2020-04-07 17:03:52,950 - apscheduler.executors.default - INFO - Running job "my_job (trigger: interval[0:00:10], next run at: 2020-04-07 17:04:02 CST)" (scheduled at 2020-04-07 17:03:52.939005+08:00)
+2020-04-07 17:03:52,951 - apscheduler.executors.default - INFO - Job "my_job (trigger: interval[0:00:10], next run at: 2020-04-07 17:04:02 CST)" executed successfully
+2020-04-07 17:04:02,940 - apscheduler.executors.default - INFO - Running job "my_job (trigger: interval[0:00:10], next run at: 2020-04-07 17:04:12 CST)" (scheduled at 2020-04-07 17:04:02.939005+08:00)
+2020-04-07 17:04:02,940 - apscheduler.executors.default - INFO - Job "my_job (trigger: interval[0:00:10], next run at: 2020-04-07 17:04:12 CST)" executed successfully
+2020-04-07 17:04:12,940 - apscheduler.executors.default - INFO - Running job "my_job (trigger: interval[0:00:10], next run at: 2020-04-07 17:04:22 CST)" (scheduled at 2020-04-07 17:04:12.939005+08:00)
+2020-04-07 17:04:12,940 - apscheduler.executors.default - INFO - Job "my_job (trigger: interval[0:00:10], next run at: 2020-04-07 17:04:22 CST)" executed successfully
+2020-04-07 17:04:22,940 - apscheduler.executors.default - INFO - Running job "my_job (trigger: interval[0:00:10], next run at: 2020-04-07 17:04:32 CST)" (scheduled at 2020-04-07 17:04:22.939005+08:00)
+2020-04-07 17:04:22,940 - apscheduler.executors.default - INFO - Job "my_job (trigger: interval[0:00:10], next run at: 2020-04-07 17:04:32 CST)" executed successfully

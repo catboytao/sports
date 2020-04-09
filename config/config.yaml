@@ -39,6 +39,11 @@ COMMON: &common #标识
       trigger: interval
       minutes: 2
 
+    - id: yuanyou_insert
+      func: task.task:yuanyou_insert
+      trigger: interval
+      minutes: 2
+
 
 DEVELOPMENT: &development
   <<: *common # 继承common，没有重新定义的变量，使用common变量值

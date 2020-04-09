@@ -8,7 +8,7 @@
 from datetime import datetime
 
 from models.model import Sports
-from spider.crawler import Crawler
+from spider.crawler import Crawler, YuanyouCrawler
 from spider.load_data import Loader
 from utils.core import db
 
@@ -23,9 +23,22 @@ def db_query():
         print(data)
 
 def db_insert():
+    print("向sports表中插入数据")
     with db.app.app_context():
         loader = Loader()
         html = Crawler.get_html()
         data = Crawler.parse_html(html)
         print(len(data))
         loader.insert_data(datas=data)
+
+def yuanyou_insert():
+    print("向yuanyou表中插入数据")
+    with db.app.app_context():
+        loader = Loader()
+        crawler = YuanyouCrawler()
+        text = crawler.get_html()
+        data = crawler.parse_html(text)
+        crawler.all_data.extend(data)
+        crawler.get_api_data(434)
+        datas = crawler.all_data
+        loader.insert_yuanyou(datas)

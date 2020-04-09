@@ -10,11 +10,12 @@ from spider.load_data import Loader
 from factory import create_app
 from models.model import User,Sports
 from utils.core import db
-app = create_app(config_name="PRODUCTION")
+app = create_app(config_name="DEVELOPMENT")
 app.app_context().push()
 auth = HTTPBasicAuth()
 db.create_all()
 # celery -A app:celery_app worker -l info -P gevent
+
 
 
 logging.basicConfig(
@@ -67,7 +68,7 @@ def get_user(id):
 @app.route('/api/token')
 @auth.login_required
 def get_auth_token():
-    token = g.user.generate_auth_token(600)
+    token = g.user.generate_auth_token(app,600)
     return jsonify({'token': token.decode('ascii'), 'duration': 600})
 
 
