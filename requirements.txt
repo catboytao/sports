@@ -1,7 +1,7 @@
 APScheduler==3.6.0
 Click==7.0
 dnspython==1.16.0
-eventlet==0.24.1
+eventlet==0.31.0
 Flask==1.0.2
 Flask-APScheduler==1.11.0
 Flask-SQLAlchemy==2.3.2
@@ -23,7 +23,7 @@ Pillow==6.2.0
 PyJWT==1.7.1
 aliyun-python-sdk-core==2.13.4
 gunicorn==19.9.0
-eventlet==0.24.1
+eventlet==0.31.0
 celery==4.3.0
 coverage==4.5.4
 flask_cors==3.0.8
