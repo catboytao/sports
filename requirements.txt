@@ -24,7 +24,7 @@ PyJWT==1.7.1
 aliyun-python-sdk-core==2.13.4
 gunicorn==19.9.0
 eventlet==0.24.1
-celery==4.3.0
+celery==5.2.2
 coverage==4.5.4
 flask_cors==3.0.8
 flask_httpauth==3.3.0
